@@ -39,7 +39,7 @@ h1{
 						<a	class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
 							href="profile.jsp" role="tab" aria-controls="v-pills-profile"
 							aria-selected="false">Profile</a> 
-						<a class="nav-link active"	id="v-pills-profile-tab" data-toggle="pill" href="class_info.jsp"
+						<a class="nav-link active"	id="v-pills-profile-tab" data-toggle="pill" href="class_info.html"
 							role="tab" aria-controls="v-pills-profile" aria-selected="true">Class
 							Information</a> 
 						<a class="nav-link" id="v-pills-messages-tab"

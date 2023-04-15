@@ -54,7 +54,7 @@ public class Stud_Reg_Servlet extends HttpServlet {
 				rs = gen_op.find_ta(con, p1);
 				request.setAttribute("Result", rs);
 				request.setAttribute("func_call", "find_ta");
-				RequestDispatcher rd = request.getRequestDispatcher("r_class_info.jsp");
+				RequestDispatcher rd = request.getRequestDispatcher("r_class_info.html");
 				rd.forward(request, response);
 			} else if (value.contentEquals("find_prereq")) {
 				String p1 = request.getParameter("dept_code").toString();
