@@ -72,7 +72,7 @@ public class Stud_Reg_Servlet extends HttpServlet {
 
 				request.setAttribute("Result", output);
 				request.setAttribute("func_call", "enroll_stud");
-				RequestDispatcher rd = request.getRequestDispatcher("r_enroll.jsp");
+				RequestDispatcher rd = request.getRequestDispatcher("r_enroll.html");
 				rd.forward(request, response);
 			} else if (value.contentEquals("drop_stud")) {
 				String p1 = request.getParameter("b_no").toString();
@@ -81,7 +81,7 @@ public class Stud_Reg_Servlet extends HttpServlet {
 				String output = stud_op.drop_stud(con, p1, p2);
 				request.setAttribute("Result", output);
 				request.setAttribute("func_call", "drop_stud");
-				RequestDispatcher rd = request.getRequestDispatcher("r_disenroll.jsp");
+				RequestDispatcher rd = request.getRequestDispatcher("r_disenroll.html");
 				rd.forward(request, response);
 			}
 			con.close();

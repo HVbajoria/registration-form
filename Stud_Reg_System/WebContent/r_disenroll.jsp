@@ -34,25 +34,25 @@ h1{
 					<div class="nav flex-column nav-pills" id="v-pills-tab"
 						role="tablist" aria-orientation="vertical">
 						<a class="nav-link" id="v-pills-home-tab"
-							data-toggle="pill" href="home.jsp" role="tab"
+							data-toggle="pill" href="home.html" role="tab"
 							aria-controls="v-pills-home" aria-selected="true">Home</a> 
 						<a	class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
-							href="profile.jsp" role="tab" aria-controls="v-pills-profile"
+							href="profile.html" role="tab" aria-controls="v-pills-profile"
 							aria-selected="false">Profile</a> 
 						<a class="nav-link"
 							id="v-pills-profile-tab" data-toggle="pill" href="class_info.html"
 							role="tab" aria-controls="v-pills-profile" aria-selected="false">Class
 							Information</a> 
 						<a class="nav-link" id="v-pills-messages-tab"
-							data-toggle="pill" href="course_req.jsp" role="tab"
+							data-toggle="pill" href="course_req.html" role="tab"
 							aria-controls="v-pills-messages" aria-selected="false">Course
 							Requirements</a> 
 						<a class="nav-link" id="v-pills-settings-tab"
-							data-toggle="pill" href="enroll.jsp" role="tab"
+							data-toggle="pill" href="enroll.html" role="tab"
 							aria-controls="v-pills-settings" aria-selected="false">Enroll
 							in a Class</a> 
 						<a class="nav-link active" id="v-pills-settings-tab"
-							data-toggle="pill" href="disenroll.jsp" role="tab"
+							data-toggle="pill" href="disenroll.html" role="tab"
 							aria-controls="v-pills-settings" aria-selected="false">Dis-enroll
 							from a Class</a>
 					</div>
